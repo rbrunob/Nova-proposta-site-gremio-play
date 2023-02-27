@@ -1065,6 +1065,10 @@ footer .footer_row .footer_sections {
     /* HEADER */
     /* ADVANTAGE */
 
+    #advantage {
+        padding: 10% 0px;
+    }
+
     #advantage h1 {
         font-size: 2rem;
     }
@@ -1088,6 +1092,14 @@ footer .footer_row .footer_sections {
     /* ADVANTAGE */
     /* APPSTORE */
 
+    #appstore {
+        padding: 10% 0;
+    }
+
+    .appstore_text .title {
+        padding: 0;
+    }
+
     .appstore_row .appstore_image {
         display: none;
     }
@@ -1097,7 +1109,7 @@ footer .footer_row .footer_sections {
     }
 
     .appstore_text .title h3 {
-        font-size: 3.5rem;
+        font-size: 1rem;
     }
 
     .appstore_text .title p {
@@ -1120,6 +1132,10 @@ footer .footer_row .footer_sections {
     /* APPSTORE */
     /* PLANS */
 
+    #plans {
+        padding: 10% 0;
+    }
+
     #plans .plans_row h3 {
         font-size: 2rem;
     }
@@ -1136,6 +1152,10 @@ footer .footer_row .footer_sections {
         position: relative;
         width: 100%;
         height: auto;
+    }
+
+    .plans_container .plan_item.recommended {
+        transform: scale(1);
     }
 
     /* PLANS */
