@@ -35,3 +35,12 @@ window.addEventListener('scroll', () => {
     }
 })
 
+// MENU MOBILE
+
+const menu = document.querySelector('.menu_container');
+const navMenu = document.querySelector('.menu_nav_mobile');
+
+menu.addEventListener('click', () => {
+    navMenu.classList.toggle('active');
+})
+

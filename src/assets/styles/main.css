@@ -1106,13 +1106,17 @@ footer .footer_row .footer_sections {
         right: 0;
         width: 260px;
         height: auto;
-        display: flex;
         background: #232323;
         flex-direction: column;
         box-shadow: -5px 5px 20px 10px #00000085;
         align-items: end;
         padding: 15px;
         gap: 20px;
+        display: none;
+    }
+
+    .menu_nav_mobile.active {
+        display: flex;
     }
 
     .menu_nav_mobile a {
