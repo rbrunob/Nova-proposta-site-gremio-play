@@ -1021,14 +1021,21 @@ footer .footer_row .footer_sections {
 
     .alert_row p {
         font-size: 1rem;
-        line-height: 2rem;
-        text-align: center;
+        line-height: 1.4rem;
+        text-align: start;
         width: 100%;
+    }
+
+    .alert_row p span {
+        font-weight: bold;
+        background: none;
+        color: var(--black);
+        padding: 0;
     }
 
     .alert_row a {
         font-size: 1rem;
-        width: 40%;
+        width: 80%;
         text-align: center;
     }
 
@@ -1058,6 +1065,18 @@ footer .footer_row .footer_sections {
     /* HEADER */
     /* ADVANTAGE */
 
+    #advantage h1 {
+        font-size: 2rem;
+    }
+
+    .advantage_row .advantage_item h2 {
+        font-size: 1.5rem;
+    }
+
+    .advantage_row .advantage_item p {
+        font-size: 1.1rem;
+    }
+
     #advantage .advantage_row {
         flex-direction: column;
     }
@@ -1077,6 +1096,17 @@ footer .footer_row .footer_sections {
         width: 100%;
     }
 
+    .appstore_text .title h3 {
+        font-size: 3.5rem;
+    }
+
+    .appstore_text .title p {
+        font-size: 1rem;
+    }
+
+    .appstore_text .title p span {
+        font-size: 1.1rem;
+    }
 
     .appstore_text .title span {
         text-align: center;
@@ -1089,6 +1119,10 @@ footer .footer_row .footer_sections {
 
     /* APPSTORE */
     /* PLANS */
+
+    #plans .plans_row h3 {
+        font-size: 2rem;
+    }
 
     .plans_row .plans_container {
         flex-direction: column;
@@ -1109,6 +1143,10 @@ footer .footer_row .footer_sections {
 
     .faq_row .faq_container {
         width: 100%;
+    }
+
+    #faq .faq_row h5 {
+        text-align: center;
     }
 
     /* FAQ */
