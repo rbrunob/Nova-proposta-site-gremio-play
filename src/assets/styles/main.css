@@ -847,7 +847,70 @@ footer .footer_row .footer_sections {
 
 /*DESKTOP PEQUENO*/
 
-@media screen and (max-width: 1366px) {}
+@media screen and (max-width: 1366px) {
+
+    /* HEADER */
+
+    #banner {
+        height: auto;
+    }
+
+    #banner .banner_home a {
+        position: absolute;
+        bottom: 150px;
+        left: 16%;
+    }
+
+    /* HEADER */
+    /* APPSTORE */
+
+    .appstore_row .appstore_image img {
+        width: 100%;
+    }
+
+    .appstore_text .title h3 {
+        font-size: 1.5rem;
+    }
+
+    .appstore_text .title span {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .stores a img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* APPSTORE */
+    /* PLANS */
+
+    .plans_container .plan_item {
+        width: 33%;
+    }
+
+    .plan_item .plan_image {
+        width: 100%;
+        height: auto;
+    }
+
+    /* PLANS */
+    /* FAQ */
+
+    .faq_row .faq_container {
+        width: 60%;
+    }
+
+    /* FAQ */
+    /* FOOTER */
+
+    footer .footer_row {
+        width: 95%;
+    }
+
+    /* FOOTER */
+
+}
 
 /*DESKTOP PEQUENO*/
 
@@ -877,7 +940,7 @@ footer .footer_row .footer_sections {
         bottom: 110px;
         left: 15%;
     }
-    
+
     /* HEADER */
     /* APPSTORE */
 
