@@ -894,6 +894,17 @@ footer .footer_row .footer_sections {
         height: auto;
     }
 
+    .plan_item .plan_actions {
+        width: 100%;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .plan_item .plan_actions .plan_button {
+        width: 100%;
+        text-align: center;
+    }
+
     /* PLANS */
     /* FAQ */
 
