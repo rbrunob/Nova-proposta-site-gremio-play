@@ -91,7 +91,7 @@
                             <span class="description_item">Aluguel de Conteúdo(GO)</span>
                             <span class="description_item">Catálogo Kids</span>
                             <span class="description_item">Catálogo Shows</span>
-                            <span class="description_item">Web + Mobile IOS/Android + Chromecast</span>
+                            <span class="description_item">Web + IOS/Android + Chromecast</span>
                             <span class="description_item">4 Acessos Simultâneos</span>
                         </div>
                         <div class="plan_actions">
@@ -116,7 +116,7 @@
                             <span class="description_item">Aluguel de Conteúdo(GO)</span>
                             <span class="description_item">Catálogo Kids</span>
                             <span class="description_item">Catálogo Shows</span>
-                            <span class="description_item">Web + Mobile IOS/Android + Chromecast</span>
+                            <span class="description_item">Web + IOS/Android + Chromecast</span>
                             <span class="description_item">4 Acessos Simultâneos</span>
                         </div>
                         <div class="plan_actions">
@@ -135,7 +135,7 @@
                             <span class="description_item">Conteúdo Universo Tricolor</span>
                             <span class="description_item">Conexão Tricolor</span>
                             <span class="description_item">Grêmio Rádio 24 Horas</span>
-                            <span class="description_item">Web + Mobile IOS/Android + Chromecast</span>
+                            <span class="description_item">Web + IOS/Android + Chromecast</span>
                             <span class="description_item">2 Acessos Simultâneos</span>
                         </div>
                         <div class="plan_actions">
@@ -244,7 +244,7 @@
                             - Conexão Tricolor;
                             - Grêmio Rádio 24 horas;
                             - 2 acessos simultâneos;
-                            - DEVICES: Web + Mobile IOS/Android
+                            - DEVICES: Web + IOS/Android
                             - 100% GRATUITO
                             <br>
                             <br>
