@@ -942,6 +942,14 @@ footer .footer_row .footer_sections {
     }
 
     /* HEADER */
+    /* ADVANTAGE */
+
+    .advantage_row .advantage_item {
+        min-width: 33%;
+        gap: 15px;
+    }
+
+    /* ADVANTAGE */
     /* APPSTORE */
 
     .appstore_row .appstore_image {
