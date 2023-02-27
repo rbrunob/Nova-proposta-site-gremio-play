@@ -1106,18 +1106,22 @@ footer .footer_row .footer_sections {
         top: 70px;
         right: 0;
         width: 260px;
-        height: auto;
+        height: 0;
         background: #232323;
         flex-direction: column;
         box-shadow: -5px 5px 20px 10px #00000085;
         align-items: end;
-        padding: 15px;
+        padding: 0 15px;
         gap: 20px;
-        display: none;
+        overflow: hidden;
+        transition: all .25s;
+        display: flex;
     }
 
     .menu_nav_mobile.active {
-        display: flex;
+        height: 235px;
+        width: 260px;
+        padding: 15px;
     }
 
     .menu_nav_mobile a {
@@ -1127,11 +1131,32 @@ footer .footer_row .footer_sections {
         color: var(--white);
         padding: 15px 0;
         background: #3b3b3bd6;
-        width: 100%;
+        width: 230px;
+        min-width: 230px;
+        max-width: 230px;
         border-radius: 10px;
         height: fit-content;
+        right: -260px;
         text-transform: uppercase;
         font-weight: 700;
+        position: relative;
+        transition: all .2s;
+    }
+
+    .menu_nav_mobile.active a {
+        right: 0;
+    }
+
+    .menu_nav_mobile a:nth-child(1) {
+        transition-delay: .2s;
+    }
+
+    .menu_nav_mobile a:nth-child(2) {
+        transition-delay: .3s;
+    }
+
+    .menu_nav_mobile a:nth-child(3) {
+        transition-delay: .4s;
     }
 
     header nav .nav_row .nav_buttons {
