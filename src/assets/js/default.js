@@ -24,16 +24,18 @@ const main = document.querySelectorAll('main')[0];
 const footer = document.querySelectorAll('footer')[0];
 
 window.addEventListener('scroll', () => {
-    if (window.scrollY >= 50) {
-        header.setAttribute('style', 'position: fixed')
-        main.setAttribute('style', 'top: 70px;')
-        footer.setAttribute('style', 'top: 70px;')
+    const scrollY = window.scrollY;
+
+    if (scrollY >= 50) {
+        header.style.position = 'fixed';
+        main.style.top = '70px';
+        footer.style.top = '70px';
     } else {
-        header.setAttribute('style', 'position: relative')
-        main.setAttribute('style', 'top: 0px;')
-        footer.setAttribute('style', 'top: 0px;')
+        header.style.position = 'relative';
+        main.style.top = '0px';
+        footer.style.top = '0px';
     }
-})
+});
 
 // MENU MOBILE
 
