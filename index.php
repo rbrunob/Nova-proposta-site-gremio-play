@@ -149,7 +149,13 @@
                 <h5>Duvidas Frequentes</h5>
                 <div class="faq_container">
                     <div class="faq_itens" data-faq>
-                        <p>O que é a Grêmio Play</p>
+                        <p>
+                            O que é a Grêmio Play
+                            <span class="close">
+                                <span></span>
+                                <span></span>
+                            </span>
+                        </p>
                         <div class="faq_description">
                             Criada para você e toda a família tricolor, a plataforma Grêmio Play inova ao oferecer
                             um catálogo de conteúdos que une esporte e entretenimento.
@@ -169,7 +175,14 @@
                         </div>
                     </div>
                     <div class="faq_itens" data-faq>
-                        <p>Dúvidas sobre a conta e perfil</p>
+                        <p>
+                            Dúvidas sobre a conta e perfil
+                            <span class="close">
+                                <span></span>
+                                <span></span>
+                            </span>
+                        </p>
+
                         <div class="faq_description">
                             <p>Como adicionar um perfil?</p>
                             No canto superior esquerdo clicar em “Mostrar configurações do usuário”. Clique em
@@ -229,7 +242,13 @@
                         </div>
                     </div>
                     <div class="faq_itens" data-faq>
-                        <p>Dúvidas sobre os planos</p>
+                        <p>
+                            Dúvidas sobre os planos
+                            <span class="close">
+                                <span></span>
+                                <span></span>
+                            </span>
+                        </p>
                         <div class="faq_description">
                             <p>Preciso ser assinante para assistir aos conteúdos no aplicativo?</p>
                             Seu cadastro é 100% GRATUITO, basta você se cadastrar, que os conteúdos do UNIVERSO
@@ -264,7 +283,13 @@
                         </div>
                     </div>
                     <div class="faq_itens" data-faq>
-                        <p>Dúvidas sobre a programação</p>
+                        <p>
+                            Dúvidas sobre a programação
+                            <span class="close">
+                                <span></span>
+                                <span></span>
+                            </span>
+                        </p>
                         <div class="faq_description">
                             <p>O que é o Guia de Programação?</p>
                             O guia de programação, é por onde você poderá acompanhar a grade diária de programação
@@ -337,7 +362,13 @@
                         </div>
                     </div>
                     <div class="faq_itens" data-faq>
-                        <p>Dúvidas sobre a plataforma</p>
+                        <p>
+                            Dúvidas sobre a plataforma
+                            <span class="close">
+                                <span></span>
+                                <span></span>
+                            </span>
+                        </p>
                         <div class="faq_description">
                             <p> Por que o aplicativo não está funcionando, quais são as causas mais comuns?</p>
                             As causas mais comuns são internet com velocidade lenta, computador com requisitos
@@ -427,7 +458,13 @@
                         </div>
                     </div>
                     <div class="faq_itens" data-faq>
-                        <p>Instalação e compatibilidade</p>
+                        <p>
+                            Instalação e compatibilidade
+                            <span class="close">
+                                <span></span>
+                                <span></span>
+                            </span>
+                        </p>
                         <div class="faq_description">
                             <p>Como instalar o aplicativo em smartphone, tablet, iPhone ou TV?</p>
                             Telefone ou tablet com Android e TV com Android TV:

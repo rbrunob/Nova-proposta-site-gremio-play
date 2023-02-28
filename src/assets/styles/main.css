@@ -1,12 +1,28 @@
 @import url("./_variaveis.css");
 @import url("../../Components/Header/Header.css");
 @import url("../../Components/Footer/Footer.css");
+
+*::-webkit-scrollbar {
+    width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--dark-blue);
+    border-radius: 0px;
+    border: 3px solid var(--dark-blue);
+}
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
     background-color: var(--gray);
+    height: 200vh;
 }
 
 main {
@@ -528,27 +544,46 @@ main {
     transition: all .4s;
 }
 
-.faq_row .faq_container .faq_itens::after {
-    content: "";
-    position: absolute;
-    right: 15px;
+span.close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
     background: transparent;
-    border-right: 3px solid var(--white);
-    border-bottom: 3px solid var(--white);
-    border-radius: 0px 5px 3px;
-    width: 10px;
-    height: 10px;
-    clip-path: polygon(100% 100%, 100% 0%, 0% 100%);
-    transform: rotate(315deg);
-    transition: all .1s;
-    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 12px;
 }
 
-.faq_row .faq_container .faq_itens.open::after {
-    transform: rotate(45deg);
-    color: var(--dark-blue);
-    border-right: 3px solid var(--dark-blue);
-    border-bottom: 3px solid var(--dark-blue);
+span.close span:nth-child(1) {
+    width: 100%;
+    display: block;
+    height: 2px;
+    background: #f8f8f8;
+    transform: rotate(0deg);
+    position: absolute;
+    transition: all .3s;
+}
+
+span.close span:nth-child(2) {
+    width: 100%;
+    display: block;
+    height: 2px;
+    background: #f8f8f8;
+    transform: rotate(90deg);
+    position: absolute;
+    transition: all .3s;
+}
+
+.faq_itens.open span.close span:nth-child(1) {
+    background: #0077c8;
+    transform: rotate(225deg);
+}
+
+.faq_itens.open span.close span:nth-child(2) {
+    background: #0077c8;
+    transform: rotate(136deg);
 }
 
 .faq_row .faq_container .faq_itens p {
@@ -558,6 +593,8 @@ main {
     font-weight: bold;
     margin: 0 0 20px;
     cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .faq_row .faq_container .faq_itens .faq_description {
