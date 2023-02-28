@@ -9,3 +9,11 @@
     --green: #67ff9d;
     --radius-default: 5px;
 }
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: var(--black);
+}

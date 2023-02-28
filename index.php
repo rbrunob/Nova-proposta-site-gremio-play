@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./src/assets/styles/reset.css" />
     <link rel="stylesheet" href="./src/assets/styles/main.css" />
-    <link rel="shortcut icon" href="./src/assets/images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="https://gremioplay.tv.br/teste/src/assets/images/favicon.ico" type="image/x-icon" />
     <meta name="description" content="Acompanhe contúdos exclusivos do Grêmio, Filmes, Séries e Shows pra você e sua família." />
 
 

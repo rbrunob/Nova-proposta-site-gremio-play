@@ -1,8 +1,8 @@
 <header>
     <nav>
         <div class="nav_row">
-            <a href="./index.html">
-                <img src="./src/assets/images/gremioplay_logo.webp" alt="Logo Grêmio Play" />
+            <a href="https://gremioplay.tv.br/teste/index.php">
+                <img src="https://gremioplay.tv.br/teste/src/assets/images/gremioplay_logo.webp" alt="Logo Grêmio Play" />
             </a>
             <div class="nav_buttons">
                 <a rel="noopener" target="_blank" href="https://cadastro.gremioplay.tv.br/">Cadastre-se
