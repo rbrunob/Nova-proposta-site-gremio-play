@@ -1,28 +1,12 @@
 @import url("./_variaveis.css");
 @import url("../../Components/Header/Header.css");
 @import url("../../Components/Footer/Footer.css");
-
-*::-webkit-scrollbar {
-    width: 6px;
-}
-
-*::-webkit-scrollbar-track {
-    background: transparent;
-}
-
-*::-webkit-scrollbar-thumb {
-    background-color: var(--dark-blue);
-    border-radius: 0px;
-    border: 3px solid var(--dark-blue);
-}
-
 html {
     scroll-behavior: smooth;
 }
 
 body {
     background-color: var(--gray);
-    height: 200vh;
 }
 
 main {
