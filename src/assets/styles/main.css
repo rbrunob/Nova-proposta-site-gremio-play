@@ -1,4 +1,6 @@
 @import url("./_variaveis.css");
+@import url("../../Components/Header/Header.css");
+@import url("../../Components/Footer/Footer.css");
 
 * {
     box-sizing: border-box;
@@ -35,7 +37,7 @@ main {
     position: relative;
 }
 
-@import url("../../Components/Header/Header.css");
+
 
 /* ALERT */
 
@@ -942,4 +944,3 @@ main {
 
 /*MEDIA QUERIES*/
 
-@import url("../../Components/Footer/Footer.css");
