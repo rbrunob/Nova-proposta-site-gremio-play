@@ -810,8 +810,9 @@ footer .footer_row .footer_sections {
 }
 
 .footer_support .footer_socialmedia .social_media img {
-    width: 100%;
+    width: 80%;
     height: auto;
+    filter: invert(1);
 }
 
 .footer_support .mail {
