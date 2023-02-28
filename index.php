@@ -21,7 +21,7 @@
             <p>Planos a partir de <span>R$15,90</span>.</p><a href="#plans">Saiba Mais</a>
         </div>
     </div>
-    <?php include("./src/includes/header.php") ?>
+    <?php include("./src/Components/Header.php") ?>
     <main>
         <section id="banner">
             <div class="banner_home">
@@ -62,10 +62,8 @@
                         <p>Baixe agora a <span>Grêmio Play</span> em sua loja de aplicativos:</p>
                     </div>
                     <div class="stores">
-                        <a href="https://play.google.com/store/apps/details?id=tv.alphanetworks.beemix.gremio&pli=1"><img
-                                src="./src/assets/images/googleplay.webp" alt="Google Play" /></a>
-                        <a href="https://apps.apple.com/br/app/gr%C3%AAmio-play/id1529308374"><img
-                                src="./src/assets/images/applestore.webp" alt="Apple Store" /></a>
+                        <a href="https://play.google.com/store/apps/details?id=tv.alphanetworks.beemix.gremio&pli=1"><img src="./src/assets/images/googleplay.webp" alt="Google Play" /></a>
+                        <a href="https://apps.apple.com/br/app/gr%C3%AAmio-play/id1529308374"><img src="./src/assets/images/applestore.webp" alt="Apple Store" /></a>
                     </div>
                 </div>
             </div>
@@ -250,8 +248,7 @@
                             <br>
                             <p>Como funciona a cobrança e pagamento do Grêmio play?</p>
                             Cartão de crédito.<br>
-                            Bandeiras aceitas: <img src="./src/assets/images/bandeiras-card.webp"
-                                alt="Visa e Mastercard" />
+                            Bandeiras aceitas: <img src="./src/assets/images/bandeiras-card.webp" alt="Visa e Mastercard" />
                             <br>
                             <br>
                             <p>O que significa SVOD?</p>
@@ -389,8 +386,7 @@
                             <br>
                             <p>Posso alugar conteúdo utilizando meu smartphone ou tablet?</p>
                             Sim, entre na url
-                            <a rel="noopener" href="https://gremioplay.com.br/"
-                                target="_blank">www.gremioplay.com.br</a>
+                            <a rel="noopener" href="https://gremioplay.com.br/" target="_blank">www.gremioplay.com.br</a>
                             via o browser do seu mobile, alugue o conteúdo de seu interesse.
                             <br>
                             Após isso, logue no aplicativo com seu usuário, clique o item Biblioteca no menu, e seu
@@ -486,7 +482,7 @@
             </div>
         </section>
     </main>
-    <?php include("./src/includes/footer.php") ?>
+    <?php include("./src/Components/Footer.php") ?>
     <script src="./src/assets/js/default.js"></script>
 </body>
 
