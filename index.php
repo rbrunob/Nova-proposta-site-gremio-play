@@ -94,7 +94,7 @@
                         </div>
                         <div class="plan_actions">
                             <span class="plan_price">R$19,90</span>
-                            <a href="https://cadastro.gremioplay.tv.br/" class="plan_button">Assine já</a>
+                            <a href="https://cadastro.gremioplay.tv.br/" target="_blank" class="plan_button">Assine já</a>
                         </div>
                     </div>
                     <div class="plan_item recommended">
@@ -119,7 +119,7 @@
                         </div>
                         <div class="plan_actions">
                             <span class="plan_price">R$15,90</span>
-                            <a href="https://cadastro.gremioplay.tv.br/" class="plan_button">Assine já</a>
+                            <a href="https://cadastro.gremioplay.tv.br/" target="_blank" class="plan_button">Assine já</a>
                         </div>
                     </div>
                     <div class="plan_item">
@@ -138,7 +138,7 @@
                         </div>
                         <div class="plan_actions">
                             <span class="plan_price">GRATUITO</span>
-                            <a href="https://cadastro.gremioplay.tv.br/" class="plan_button">Cadastre-se</a>
+                            <a href="https://cadastro.gremioplay.tv.br/" target="_blank" class="plan_button">Cadastre-se</a>
                         </div>
                     </div>
                 </div>
