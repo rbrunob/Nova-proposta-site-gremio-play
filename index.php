@@ -21,7 +21,7 @@
             <p>Planos a partir de <span>R$15,90</span>.</p><a href="#plans">Saiba Mais</a>
         </div>
     </div>
-    <?php include("./src/Components/Header.php") ?>
+    <?php include("./src/Components/Header/Header.php") ?>
     <main>
         <section id="banner">
             <div class="banner_home">
@@ -482,7 +482,7 @@
             </div>
         </section>
     </main>
-    <?php include("./src/Components/Footer.php") ?>
+    <?php include("./src/Components/Footer/Footer.php") ?>
     <script src="./src/assets/js/default.js"></script>
 </body>
 
