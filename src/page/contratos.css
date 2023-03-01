@@ -1,0 +1,105 @@
+@import url("../assets/styles/_variaveis.css");
+@import url("../Components/Header/Header.css");
+@import url("../Components/Footer/Footer.css");
+
+main {
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: var(--black-blue);
+}
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+.container_row {
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    padding: 5% 0;
+}
+
+.container_row h1 {
+    color: var(--white);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 34px;
+    margin: 0 0 10px;
+}
+
+.container_row span {
+    color: var(--white);
+    width: 100%;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+}
+
+.cookies {
+    width: 100%;
+    height: auto;
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 50px;
+}
+
+.cookies div h2 {
+    font-size: 24px;
+    color: var(--white);
+    width: 100%;
+    display: block;
+    margin: 0 0 10px;
+    text-align: start;
+}
+
+.cookies div p {
+    color: var(--white);
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: start;
+    margin: 0px 0 10px;
+}
+
+.cookies div ul {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.cookies div ul li {
+    color: var(--white);
+    font-size: 18px;
+    margin: 0px 0px 15px;
+    line-height: 24px;
+    text-align: start;
+}
+
+.cookies div ul li strong {
+    color: var(--white);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.cookies div p a {
+    color: var(--blue);
+    transition: all .2s;
+}
+
+.cookies div p a:hover {
+    color: var(--light-blue);
+}
+
+.cookies div h3 {
+    color: var(--white);
+    font-size: 20px;
+    margin: 30px 0 5px;
+}

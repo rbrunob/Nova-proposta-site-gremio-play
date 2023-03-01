@@ -8,10 +8,8 @@
         <div class="footer_sections">
             <div class="footer_menu">
                 <h6>Menu</h6>
-                <a rel="noopener" target="_blank" href="https://gremioplay.tv.br/teste/src/pages/politicas/politicas-de-privacidade.php">Políticas de
+                <a rel="noopener" target="_blank" href="https://gremioplay.tv.br/teste/src/page/contratos.php">Políticas de
                     privacidade</a>
-                <a rel="noopener" target="_blank" href="https://gremioplay.tv.br/teste/src/pages/cookies/cookies.php">Cookies</a>
-                <a rel="noopener" target="_blank" href="https://gremioplay.tv.br/teste/src/pages/termos/termos-de-uso.php">Termos de uso</a>
             </div>
         </div>
         <div class="footer_sections">
