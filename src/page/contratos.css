@@ -21,15 +21,40 @@ main {
     padding: 5% 0;
 }
 
-.container_row h1 {
+.container_row a {
+    color: var(--blue);
+    transition: all .2s;
+}
+
+.container_row a:hover {
+    color: var(--light-blue);
+}
+
+
+.container_row strong {
+    color: var(--white);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.title {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title h1 {
     color: var(--white);
     text-align: center;
     text-transform: uppercase;
     font-size: 34px;
-    margin: 0 0 10px;
+    margin: 0 auto 10px;
 }
 
-.container_row span {
+.title span {
     color: var(--white);
     width: 100%;
     display: block;
@@ -37,18 +62,7 @@ main {
     font-size: 18px;
 }
 
-.cookies {
-    width: 100%;
-    height: auto;
-    margin: 70px auto 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    gap: 50px;
-}
-
-.cookies div h2 {
+.container_row h2 {
     font-size: 24px;
     color: var(--white);
     width: 100%;
@@ -57,7 +71,7 @@ main {
     text-align: start;
 }
 
-.cookies div p {
+.container_row p {
     color: var(--white);
     font-size: 18px;
     line-height: 24px;
@@ -66,7 +80,7 @@ main {
     margin: 0px 0 10px;
 }
 
-.cookies div ul {
+.container_row ul {
     width: 100%;
     height: auto;
     display: flex;
@@ -75,7 +89,7 @@ main {
     justify-content: center;
 }
 
-.cookies div ul li {
+.container_row li {
     color: var(--white);
     font-size: 18px;
     margin: 0px 0px 15px;
@@ -83,23 +97,19 @@ main {
     text-align: start;
 }
 
-.cookies div ul li strong {
-    color: var(--white);
-    font-weight: bold;
-    font-size: 18px;
-}
-
-.cookies div p a {
-    color: var(--blue);
-    transition: all .2s;
-}
-
-.cookies div p a:hover {
-    color: var(--light-blue);
-}
-
-.cookies div h3 {
+.container_row h3 {
     color: var(--white);
     font-size: 20px;
     margin: 30px 0 5px;
+}
+
+.contrato {
+    width: 100%;
+    height: auto;
+    margin: 70px auto 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 50px;
 }
