@@ -938,7 +938,7 @@ span.close span:nth-child(2) {
 
 @media screen and (max-width: 370px) {
     .faq_row .faq_container .faq_itens {
-        margin: 10px 30px 0px 15px;
+        padding: 10px 30px 0px 15px;
     }
 }
 
