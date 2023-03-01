@@ -519,7 +519,7 @@ main {
     flex-direction: column;
     border: 2px solid var(--white);
     border-radius: var(--radius-default);
-    padding: 10px 30px 0px 15px;
+    padding: 15px;
     position: relative;
     overflow-y: hidden;
     transition: all .4s;
@@ -936,7 +936,12 @@ span.close span:nth-child(2) {
     /* FAQ */
 }
 
+@media screen and (max-width: 370px) {
+    .faq_row .faq_container .faq_itens {
+        margin: 10px 30px 0px 15px;
+    }
+}
+
 /*CELULAR*/
 
 /*MEDIA QUERIES*/
-
