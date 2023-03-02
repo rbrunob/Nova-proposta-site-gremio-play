@@ -3,10 +3,20 @@
 const faqItem = document.querySelectorAll("[data-faq]");
 
 faqItem.forEach(item => {
-    item.addEventListener("click", (e) => {
-        item.classList.toggle("open")
+    item.addEventListener("click", () => {
+        const faqs = document.getElementsByClassName('faq_container')[0].children;
+        for (i = 0; i < faqs.length; i++) {
+            if (faqs[i].classList.contains('open')) {
+                faqs[i].classList.remove('open');
+            }
+        }
+        item.classList.add("open");
     })
 });
+
+
+
+
 
 // PEGA ANO ATUAL
 
@@ -45,4 +55,3 @@ const navMenu = document.querySelector('.menu_nav_mobile');
 menu.addEventListener('click', () => {
     navMenu.classList.toggle('active');
 })
-
