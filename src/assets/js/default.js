@@ -3,10 +3,10 @@
 const faqItem = document.querySelectorAll("[data-faq]");
 
 faqItem.forEach(item => {
-    item.addEventListener("click", (e) => {
+    item.addEventListener("click", () => {
         const faqs = document.getElementsByClassName('faq_container')[0].children;
         for (i = 0; i < faqs.length; i++) {
-            if (faqs[i].classList.contains('open') || faqs[i] == e.target) {
+            if (faqs[i].classList.contains('open')) {
                 faqs[i].classList.remove('open');
             }
         }
