@@ -16,6 +16,29 @@ main {
 
 /* ALERT */
 
+.modal_plans {
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+}
+
+.modal_plans.active {
+    display: flex;
+}
+
+.close {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 0;
+    top: 0;
+}
+
 .alert {
     position: relative;
     width: 100%;
